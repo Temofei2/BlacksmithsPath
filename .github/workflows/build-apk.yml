@@ -27,8 +27,8 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - name: Extract project
-        run: unzip -o BlacksmithsPath_Starter.zip -d .
+      - name: Unzip project
+        run: unzip -o BlacksmithsPath_Source_Updated.zip -d .
 
       - name: Fix Java compatibility
         run: |
